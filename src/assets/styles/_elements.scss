@@ -1,0 +1,5 @@
+body {
+   @include biggerthan($mobileScreen) {
+    background: url('../images/bg/bg.png') center center/ cover no-repeat;
+   }
+}
